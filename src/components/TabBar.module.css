@@ -1,0 +1,85 @@
+.tabBar {
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.5s;
+    backface-visibility: hidden;
+    color: white;
+    z-index: 9999;
+    position: relative;
+}
+
+.tabBarItem {
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    /* height: 75px; */
+    /* background-color: rgba(124, 149, 172, 0.1); */
+    text-align: center;
+    line-height: 75px;
+    font-size: 18px;
+    border-bottom: 4px solid transparent;
+    transition: all 0.15s;
+    vertical-align: top;
+}
+
+/* .tabBarItem:hover, .tabBarItem:focus {
+    border: 2px solid rgba(112, 76, 182, 0.4);
+  } */
+  
+.tabBarItem:active {
+    background-color: rgba(127, 50, 172, 0.2);
+  }
+
+.active {
+    composes: tabBarItem;
+    border-bottom-color: rgb(127, 50, 172);
+}
+
+.selectBox {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    /* z-index: 99999; z-index同级比较才生效*/
+    position: absolute;
+    left:36px;
+    top: 57px;
+    background-color: white;
+    opacity: 0.95;
+    font-size: 15px;
+    color: black;
+    width: 80px;
+    border-radius: 3px;
+}
+
+.selectBox li {
+    height: 30px;
+    line-height: 30px;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.left {
+  display: flex;
+  position: relative;
+  align-items: center;
+  font-family: serif;
+  flex: 1;
+  padding: 0 40px;
+}
+
+
+.avstar {
+  width: 34px;
+  height: 34px;
+  /* display: flex; */
+  border-radius: 50%;
+  /* align-items: center; */
+  /* justify-content: center; */
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+

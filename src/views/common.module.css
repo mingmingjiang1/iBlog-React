@@ -1,0 +1,155 @@
+:global .iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:global input:focus {
+  outline: none;
+}
+
+:global .icon_yonghu:before {
+  content: "\e788";
+}
+
+:global .icon_jiesuo:before {
+  content: "\e669";
+}
+
+:global .icon_yanjing:before {
+  content: "\e8bf";
+}
+
+:global .icon_fenlei:before {
+  content: "\e600";
+}
+
+:global .icon_tupian:before {
+  content: "\e63e";
+}
+
+:global .icon_tianjia:before {
+  content: "\e657";
+}
+
+:global .icon_shezhi:before {
+  content: "\e64b";
+}
+
+:global .icon_biaoqian:before {
+  content: "\e63d";
+}
+
+:global .icon_jianli:before {
+  content: "\e7b5";
+}
+
+:global .icon_wode:before {
+  content: "\e8a0";
+}
+
+:global .icon_zhuye:before {
+  content: "\e627";
+}
+
+:global .icon_jiantouxia {
+  transform: rotate(90deg);
+  transition: transform 0.1s;
+  transform-origin: center;
+}
+
+:global .icon_jiantouxia:before {
+  content: "\e62d";
+}
+
+:global .icon_wenjianjia:before {
+  content: "\e601";
+}
+
+:global .icon_yingyongguanli:before {
+  content: "\eb67";
+}
+
+:global .icon_zuijinyuedu:before {
+  content: "\e605";
+}
+
+:global .icon_yunshangchuan:before {
+  content: "\ebb3";
+}
+
+
+
+:global * {
+  margin: 0;
+  padding: 0;
+  font-family: serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Lato, Roboto, 'PingFang SC', 'Microsoft YaHei';;
+}
+
+
+/* 按钮组 */
+:global .btn {
+  color: #fff;
+  background-color: #3396e7;
+  font-family: fantasy;
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid transparent;
+  width: 200px;
+  height: 50px;
+  font-size: 22px;
+}
+:global .btn-alert {
+  color: #fff;
+  background-color: #cd3221;
+  border-radius: 5px;
+  height: 2.2rem;
+  border: 0;
+  width: 5rem;
+}
+
+:global .btn-info {
+  color: #fff;
+  background-color: #009688;
+  height: 2.2rem;
+  border: 0;
+  width: 5rem;
+  border-radius: 5px;
+}
+
+:global .btn-null {
+  color: black;
+  background-color: #fff;
+  height: 2.2rem;
+  border: 1px solid rgb(176, 168, 168);
+  width: 5rem;
+  border-radius: 5px;
+}
+
+html {
+  font-size: 18px;
+  overflow-y: scroll;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+:global input{
+  width: 25rem;
+  height: 2rem;
+  border-radius: 5px;
+  outline: none;
+  padding-left: 10px;
+}
+
+:global input:-webkit-autofill,
+:global input:-webkit-autofill:hover,
+:global input:-webkit-autofill:focus,
+:global input:-webkit-autofill:active {
+  -webkit-transition-delay: 111111s;
+  -webkit-transition: color 11111s ease-out, background-color 111111s ease-out;
+} 

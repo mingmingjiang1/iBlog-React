@@ -1,0 +1,7 @@
+.tabBar {
+    /* background-color: #f37075; */
+    position: fixed;
+    width: 100%;
+    background: linear-gradient(#f37075,#ffa093);
+    color: #fff;
+}

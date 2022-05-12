@@ -1,0 +1,150 @@
+	input{
+		margin: 0;
+		padding: 0;
+		background: pink;
+	}
+	input{
+		display: inline-block;
+		background: #fff;
+	}
+	.container{
+		height: 100vh;
+		width: 100%;
+		background: url(../assets/pics/sky.jpg) no-repeat;
+		background-size: cover;
+	}
+	.registerBox{
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 620px;
+		width: 800px;
+		margin: auto;
+		background:url(../assets/pics/登录小熊.png) no-repeat;
+	}
+	.titleBox{
+		width: 300px;
+		height: 50px;
+		margin-left: 250px;
+		text-align: center;
+		font-size: 28px;
+		font-weight: 800;
+		color: #4583c1;
+		line-height: 50px;
+	}
+	.usernameBox{
+		width: 100%;
+		height: 40px;
+		line-height: 40px;
+		margin-left:80px;
+		font-weight: 700;
+	}
+	.usernameInput{
+		display: inline-block;
+		margin-left: 45px;
+		/*background: green;*/
+	}
+	#username{
+		height: 35px;
+		width: 290px;
+		border: 2px solid #ccc;
+		border-radius: 5px;
+	}
+	.userPasswordBox{
+		width: 420px;
+		height: 40px;
+		line-height: 40px;
+		margin-left:80px;
+		font-weight: 700;
+	}
+	.userPasswordInput{
+		display: inline-block;
+		margin-left: 61px;
+	}
+	#userPassword{
+		height: 35px;
+		width: 290px;
+		border: 2px solid #ccc;
+		border-radius: 5px;
+	}
+	.userRePasswordBox{
+		width: 100%;
+		height: 40px;
+		line-height: 40px;
+		margin-left:80px;
+		font-weight: 700;
+	}
+	.userRePasswordInput{
+		display: inline-block;
+		margin-left: 28px;
+	}
+	#userRePassword{
+		height: 35px;
+		width: 290px;
+		border: 2px solid #ccc;
+		border-radius: 5px;
+	}
+	.userPhoneBox{
+		width: 100%;
+		height: 40px;
+		line-height: 40px;
+		margin-left:80px;
+		font-weight: 700;
+	}
+	.userPhoneInput{
+		display: inline-block;
+		margin-left: 28px;
+	}
+	#userPhone{
+		height: 35px;
+		width: 290px;
+		border: 2px solid #ccc;
+		border-radius: 5px;
+	}
+	.userEmailBox{
+		width: 100%;
+		height: 40px;
+		line-height: 40px;
+		margin-left:80px;
+		font-weight: 700;
+	}
+	.userEmailInput{
+		display: inline-block;
+		margin-left: 28px;
+	}
+	#userEmail{
+		height: 35px;
+		width: 290px;
+		border: 2px solid #ccc;
+		border-radius: 5px;
+	}
+ 
+	.require{
+		color: red;
+	}
+	.submitBox{
+		display: flex;
+		justify-content: space-between;
+		width: 30%;
+		height: 40px;
+		line-height: 40px;
+		margin-left:200px;
+		border-radius: 5px;
+	}
+	#submitButton{
+		display: inline-block;
+		width: 80px;
+		height: 40px;
+		border-radius: 5px;
+		background: red;
+	}
+	.goLoginBox{
+		display: inline-block;
+		width: 150px;
+		height: 20px;
+		margin-left:320px;
+ 
+	}

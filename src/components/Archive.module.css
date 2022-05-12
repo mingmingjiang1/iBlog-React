@@ -1,0 +1,75 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Lato, Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif;;
+}
+
+.home {
+    background-image: url("../assets/pics/宇宙.png");
+    height: 100vh;
+
+}
+
+.desc {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    padding-top: 150px;
+    color: azure;
+}
+.desc div h3 {
+    font-family: cursive;
+    line-height: 3rem;
+}
+.main {
+    margin: 30px 100px 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    /* 每个卡片宽度是先死的，长度不一定 */
+    font-size: 50px;
+    min-height: 220vh;
+}
+
+.showBar {
+    display: flex;
+    width: 70%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.category {
+    padding: 1rem 1.2rem;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 3px 5px 6px rgba(7 7 27 / 10%);
+    margin-bottom: 55px;
+}
+
+.category ul li {
+    display: inline-block;
+    padding: 0.15rem 0.5rem;
+    width: 100%;
+    list-style-type: none;
+}
+
+.category ul li a span:first-child {
+    display: inline-block;
+    width: 80%;
+    /* vertical-align: bottom; */
+    line-height: 2;
+}
+
+
+
+.msg {
+    position: sticky;
+    top: 100px;
+    width: 25%;
+    font-family: sans-serif;
+    /* flex: 1; */
+    font-size: 15px;
+    height: 130vh;
+}
+
+

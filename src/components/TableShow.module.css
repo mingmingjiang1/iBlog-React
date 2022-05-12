@@ -1,0 +1,14 @@
+.mini {
+    height: 2rem;
+    width: 4rem;
+}
+
+.btnGroup {
+    display: flex;
+    justify-content: space-between
+}
+
+/* 
+修改信息页面
+文件拖拽（不一定弄了）
+*/

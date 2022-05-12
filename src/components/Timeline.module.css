@@ -1,0 +1,13 @@
+.timelineImg {
+    width: 100px;
+    height: 100px; 
+    vertical-align: 'middle';
+    object-fit: cover;
+}
+
+.fileInfo {
+    padding: 5px 10px;
+    font-size: 0.875rem;
+    line-height: 2;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}

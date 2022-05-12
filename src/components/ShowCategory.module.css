@@ -1,0 +1,28 @@
+.container {
+    /* display: flex;
+    justify-content: space-between;  */
+    /* ul 和div无法在同一行对齐吗？ */
+    position: relative;
+    margin: 40px 50px;
+    font-size: 0.875rem;
+}
+
+.container>div:first-child {
+    width: 50%;
+    border: 2px dotted black;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+.container>div:nth-child(2) {
+    display: inline-block;
+    width: 45%;
+    border: 2px dotted black;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.container h2 {
+    text-align: center;
+}

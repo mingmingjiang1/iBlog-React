@@ -1,0 +1,6 @@
+.showBar {
+    display: flex;
+    width: 70%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

@@ -1,0 +1,28 @@
+.aside {
+    height: 100%;
+    width: 20%;
+    color: #fff;
+    background-color: #393d49;
+}
+
+.aside ul {
+    padding-left: 10%;
+}
+
+.aside>ul {
+    padding-left: 0;
+}
+
+.aside li {
+    margin: 0;
+    display: flex   ;
+    list-style-type: none;
+    width: 75%;
+    padding: 12%;
+    justify-content: space-between;
+    /* height: 40px; */
+}
+
+.aside ul li:hover {
+    background-color: #009688;
+}

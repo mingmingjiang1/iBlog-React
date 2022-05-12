@@ -1,0 +1,41 @@
+.asideListItem {
+    display: flex;
+    align-items: center;
+    padding: 0.5em 0;
+}
+
+.thumbnail {
+    width: 4.2em;
+    height: 4.2em;
+    overflow: hidden;
+}
+.asideListItem img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.6s;
+}
+
+.asideListItem img:hover {
+    transform: scale(1.1);
+}
+.asideListItem div {
+    flex: 1;
+    padding-left: 10px;
+    word-break: break-all;
+    box-sizing: border-box;
+}
+
+.asideListItem div a {
+    font-size: 120%;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.asideListItem div time {
+    display: block;
+    padding-top: 10px;
+}
+

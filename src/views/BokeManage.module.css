@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 89vh;
+}
+
+.tabBar {
+    width: 100%;
+    background: linear-gradient(#f37075,#ffa093);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    height: 11vh;
+}
+
+.table {
+    flex: 1;
+    /* margin-left: 30px;
+    margin-top: 24px;
+    margin-right: 30px; */
+    margin: 2vh;
+    height: 85vh;
+    overflow-y: scroll;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 3px 8px 6px rgba(7,17,27,0.06);
+}
